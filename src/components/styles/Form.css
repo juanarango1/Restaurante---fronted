@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+
+}
+
+.message {
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: 30px;
+
+
+}
+
+.form-container {
+  width: 350px;
+  padding: 40px;
+  border: 1px solid #385e22;
+  border-radius: 8px;
+  box-shadow: 10 19px 8px rgba(103, 255, 32, 0.575);
+  background-color: #ffffff;
+  font-family: 'Courier New', Courier, monospace
+}
+
+.error-message {
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo img {
+  width: 300px;
+  height: auto;
+}
+
+.form-container h2 {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: #000000cb;
+  margin-bottom: 30px;
+
+
+}
+
+.form-container input[type="text"],
+.form-container input[type="password"],
+.form-container button {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-shadow: 2 2px 8px rgb(2, 7, 0);
+  font-family: 'Courier New', Courier, monospace
+}
+
+.form-container button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+}

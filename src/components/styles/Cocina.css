@@ -1,0 +1,84 @@
+.cocina-container {
+    max-width: 600px;
+    margin: 0 auto;
+    max-height: 500px;
+    background-color: white;
+    text-align: center;
+    overflow: auto;
+    margin-top: 40px;
+    position: relative;
+
+}
+
+.titulo-cocina {
+    display: flex;
+    align-items: center;
+}
+
+.icono {
+    margin-right: 10px;
+    width: 30%;
+    height: 50%;
+}
+
+.product {
+    text-align: center;
+}
+
+.list {
+    display: block;
+    padding: 5px 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.pedidos-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    position: relative;
+}
+
+.pedido-item {
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.pedido-item p {
+    margin: 0;
+}
+
+.pedido-item button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+
+}
+
+.pedido-item button:hover {
+    background-color: #0056b3;
+}
+
+button.logout {
+    position: fixed;
+    padding: 10px;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.list-header {
+    
+    grid-template-columns: repeat(5, 1fr);
+    font-weight: bold;
+
+}

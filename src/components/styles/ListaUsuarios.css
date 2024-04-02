@@ -1,0 +1,71 @@
+.user-list {
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    margin-top: 50px;
+    background-color: white;
+    overflow: auto;
+    width: 500px;
+    padding: 40px;
+    border: 1px solid #385e22;
+    border-radius: 8px;
+    background-color: #ffffff;
+    max-height: 450px;
+
+}
+
+.user-list h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace
+}
+
+
+
+.user-list button {
+    padding: 1px 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+    margin: 2px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 8px;
+}
+
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 40px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.list-header {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+span {
+    flex: 1;
+    margin-right: 10px;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.user-list button:hover {
+    background-color: #0056b3;
+}
